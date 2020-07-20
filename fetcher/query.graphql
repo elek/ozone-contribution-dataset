@@ -1,6 +1,6 @@
 {
     repository(owner: "apache", name: "hadoop-ozone") {
-        pullRequests(first: 10, orderBy: {field: UPDATED_AT, direction: DESC}) {
+        pullRequests(first: 25, orderBy: {field: UPDATED_AT, direction: DESC}) {
             totalCount
             pageInfo {
                 endCursor
@@ -8,7 +8,7 @@
             }
             edges {
                 node {
-                    idw
+                    id
                     title
                     number
                     mergeable
